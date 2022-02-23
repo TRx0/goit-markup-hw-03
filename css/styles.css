@@ -45,7 +45,36 @@ p:last-child{
 .header-contact:not(:last-child){
   margin-right:50px;
 }
-
+.header-mail{
+  display: inline-flex;
+  align-items: center;
+}
+.header-mail::before{
+  display: inline-flex;
+  content: "";
+  width: 16px;
+  height: 12px;
+  background-image: url(/images/envelope.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 10px;
+  background-size: contain;
+}
+.header-phone{
+  display: inline-flex;
+  align-items: center;
+}
+.header-phone::before{
+  display: inline-flex;
+  content: "";
+  width: 10px;
+  height: 16px;
+  background-image: url(/images/smartphone.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 10px;
+  background-size: contain;
+}
 .header-container{
   display: flex;
   align-items: center;
@@ -90,6 +119,7 @@ margin-right: 50px;
 .contact-nav{
   display: flex;
   margin-left: auto;
+  
 }
 .contact-nav a {
   font-weight: 500;
