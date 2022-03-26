@@ -181,6 +181,18 @@ margin-right: 50px;
 .advantages-examples:not(:last-child){
   margin-right: 30px;
 }
+.title-icon{
+  display: flex;
+  background-color:#F5F4FA;
+  width: 270px;
+  height: 120px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+
+
 .title-text {
   font-weight: bold;
   font-size: 14px;
@@ -202,6 +214,38 @@ margin-right: 50px;
 .team-desc:last-child{
   margin-right: 0;
 }
+.socials{
+  display: flex;
+}
+.socials-item:not(:last-child){
+  margin-right: 10px;
+}
+.sociasls-item:not(:last-child){
+  padding-right: 10px;
+ 
+}
+
+.socials-link{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.socials-link:hover,
+.socials-link:focus{
+  background-color: var(--accent-color);
+}
+.socials-link:hover .socials-icon,
+.socials-link:focus .socials-icon{
+  fill: #fff;
+}
+.socials-icon{
+  fill: #AFB1B8;
+}
+
 .our-job{
   padding-bottom: 94px;
 }
@@ -245,7 +289,7 @@ margin-right: 50px;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
- 
+ margin-bottom: 16px;
 }
 .team-text{
   padding-top: 30px;
