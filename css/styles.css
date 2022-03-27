@@ -247,6 +247,7 @@ margin-right: 50px;
 }
 .socials-icon{
   fill: #AFB1B8;
+  
 }
 
 .our-job{
@@ -380,6 +381,10 @@ margin-right: 50px;
   display: flex;
 }
 .socials-list{
+  
+  margin-left: 32px;
+}
+.socials-list-footer{
   padding-top: 20px;
 }
 .footer-subtitle{
