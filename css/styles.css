@@ -131,6 +131,7 @@ margin-right: 50px;
 .contact-nav a:focus,
 .contact-nav a:hover {
   color: var(--accent-color);
+
 }
 /* Hero */
 .hero {
@@ -138,6 +139,9 @@ margin-right: 50px;
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
+  background-image: url(/images/hero-bg.jpg);
+  background-size: 1600px;
+  
 }
 
 .hero-text {
@@ -224,7 +228,6 @@ margin-right: 50px;
   padding-right: 10px;
  
 }
-
 .socials-link{
   display:flex;
   justify-content: center;
@@ -304,11 +307,89 @@ margin-right: 50px;
 .team-icon:not(:last-child){
   margin-right: 30px;
 }
+.clients{
+
+}
+.clients-subtitle{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  padding-top: 94px;
+}
+.client-link{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 92px;
+  background-color: #fff;
+  border: 1px solid #AFB1B8;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.client-link:focus,
+.client-link:hover{
+  border: 1px solid #2196F3;
+}
+.client-item:not(:last-child){
+  margin-right: 30px;
+}
+.client-socials{
+  padding-top: 50px;
+  padding-bottom: 94px;
+  
+}
+
+.client-icon{
+  fill:  #AFB1B8;
+}
+.client-icon:focus,
+.client-icon:hover{
+  fill: #2196F3;;
+}
 /* Footer */
 .footer {
+  display: flex;
   background-color: #2f303a;
   padding-top: 60px;
   padding-bottom: 60px;
+}
+.socials-link-footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.socials-icon-footer{
+  fill: #fff;
+}
+.socials-link-footer:hover,
+.socials-link-footer:focus{
+  background-color: var(--accent-color);
+}
+.footer-socials{
+  margin-left: 70px;
+}
+.footer-container{
+  display: flex;
+}
+.socials-list{
+  padding-top: 20px;
+}
+.footer-subtitle{
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 12px;
 }
 .logo-footer {
   font-family: 'Raleway';
@@ -352,6 +433,7 @@ color: #ffffff;
   color: var(--accent-color);
   
 }
+
 
 
 
