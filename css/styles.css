@@ -328,7 +328,7 @@ margin-right: 50px;
 .client-link:hover{
   border: 1px solid #2196F3;
 }
-.client-link:hover .client-icon
+.client-link:hover .client-icon,
 .client-link:focus .client-icon{
   fill: var(--accent-color);
 }
