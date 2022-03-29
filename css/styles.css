@@ -135,7 +135,8 @@ margin-right: 50px;
   padding-bottom: 200px;
   text-align: center;
   background-image: url(../images/hero-bg.jpg);
-  background-size: contain;
+  background-size: cover;
+  background-repeat: no-repeat;
 
 }
 
@@ -215,6 +216,7 @@ margin-right: 50px;
 }
 .socials{
   display: flex;
+  justify-content: center;
 }
 
 .sociasls-item:not(:last-child){
@@ -374,10 +376,7 @@ margin-right: 50px;
   display: flex;
   align-items: baseline;
 }
-.socials-list{
-  
-  margin-left: 32px;
-}
+
 .socials-list-footer{
   padding-top: 20px;
 }
@@ -459,7 +458,9 @@ color: #ffffff;
   box-sizing: border-box;
   padding: 6px 22px; 
 }
-.button-list-items button:hover,
+.button-list-items button:hover{
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
 .button-list-items button:focus{
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
@@ -504,8 +505,9 @@ color: #ffffff;
   margin-right: 30px;
   margin-bottom: 30px;
 }
-.flex-element:hover,
-.flex-element:focus{
+.flex-link:hover,
+.flex-link:focus{
+  display: block;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .flex-element:nth-child(3n){
